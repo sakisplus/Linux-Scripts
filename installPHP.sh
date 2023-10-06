@@ -12,7 +12,7 @@ echo "Install PHP 8.2"
 sudo apt install php8.0 -y
 
 echo "Install common PHP 8.2 extensions"
-sudo apt install -y php8.2-curl php8.2-cli php8.2-common php8.2-imap php8.2-redis php8.2-xml php8.2-zip php8.2-mbstring
+sudo apt install -y php8.2-curl php8.2-gd php8.2-cli php8.2-common php8.2-imap php8.2-redis php8.2-xml php8.2-zip php8.2-mbstring
 
 echo "Install composer"
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
